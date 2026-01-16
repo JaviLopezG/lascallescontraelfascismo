@@ -79,6 +79,25 @@ p {
     font-size: 1.1rem;
 }
 
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .header-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .header-content p {
+        font-size: 1.2rem;
+    }
+}
+
+.news-list {
+    margin-top: 4rem;
+}
+
 /* Layout */
 .container {
     width: 90%;
