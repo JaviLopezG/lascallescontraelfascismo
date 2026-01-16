@@ -1,3 +1,38 @@
-lascallescontraelfascismo.org {
-    reverse_proxy localhost:8085
+{
+    email mail@javilopezg.com
+    # Global Rate Limiting (Optional but recommended)
+    # order rate_limit before basicauth
 }
+
+# ----------------------------------------------------------------------
+# 🛡️ GLOBAL SECURITY: BAD BOT BLOCKER
+# ----------------------------------------------------------------------
+(security) {
+    @badbots {
+        header User-Agent *ZGrab*
+        header User-Agent *SemrushBot*
+        header User-Agent *AhrefsBot*
+        header User-Agent *Bytespider*
+        header User-Agent *PetalBot*
+    }
+    abort @badbots
+}
+
+# ----------------------------------------------------------------------
+# LASCALLESCONTRAELFASCISMO.ORG
+# ----------------------------------------------------------------------
+lascallescontraelfascismo.org {
+    import security
+    
+    # Reverse proxy to the container
+    # Ensure this matches your docker-compose service name and port
+    reverse_proxy lascalles-web:80
+}
+
+# ----------------------------------------------------------------------
+# OTHER DOMAINS (Examples)
+# ----------------------------------------------------------------------
+# yups.io {
+#     import security
+#     reverse_proxy yups_prod:5000
+# }
