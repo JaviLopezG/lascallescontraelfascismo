@@ -3,7 +3,7 @@ A los buenos días. Es muy pequeño, pero revisa el directorio y luego sigue las
 1. Vamos a crear una web estática para una asamblea que lucha por los derechos humanos.
 2. Debe estar en castellano (por defecto), inglés, francés y árabe. Cuando un visitante nuevo entre, si se detecta que el navegador está en otro idioma deberá mostrarse un popup que le diga en castellano y el idioma de destino "¿Prefieres ver la página en otro idioma?" y la lista de idiomas disponibles.
 3. La estética de la web tiene que recordar a los carteles de propaganda de la república durante la guerra civil (vintage, art deco, realismo socialista, pop art...)
-4. Los colores principales deben ser logo (rosa 2596be, blanco y negro).
+4. Los colores principales deben ser logo (rosa ff4ab1, blanco y negro).
 5. La página debe tener un diseño mobile first.
 6. Debe ser accesible (WCAG 2.1 AA).
 7. Los apartados que tendrá serán:

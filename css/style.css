@@ -1,8 +1,10 @@
 :root {
-    --primary-color: #2596be;
+    --primary-color: #ff4ab1;
     --text-color: #1a1a1a;
-    --bg-color: #f4f1ea; /* Slightly off-white for vintage feel */
-    --accent-color: #d62828; /* Republican Red accent if needed, otherwise stick to palette */
+    --bg-color: #f4f1ea;
+    /* Slightly off-white for vintage feel */
+    --accent-color: #d62828;
+    /* Republican Red accent if needed, otherwise stick to palette */
     --black: #000000;
     --white: #ffffff;
     --border-width: 3px;
@@ -43,7 +45,12 @@ img {
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: var(--font-heading);
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -83,11 +90,12 @@ p {
 header {
     text-align: center;
     padding: 2rem 0;
-    background-image: linear-gradient(45deg, var(--white) 25%, transparent 25%, transparent 75%, var(--white) 75%, var(--white)), 
-                      linear-gradient(45deg, var(--white) 25%, transparent 25%, transparent 75%, var(--white) 75%, var(--white));
+    background-image: linear-gradient(45deg, var(--white) 25%, transparent 25%, transparent 75%, var(--white) 75%, var(--white)),
+        linear-gradient(45deg, var(--white) 25%, transparent 25%, transparent 75%, var(--white) 75%, var(--white));
     background-size: 20px 20px;
     background-position: 0 0, 10px 10px;
-    background-color: var(--primary-color); /* Fallback/Blend */
+    background-color: var(--primary-color);
+    /* Fallback/Blend */
     border-bottom: var(--border-width) solid var(--black);
 }
 
@@ -147,7 +155,8 @@ section:last-child {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50%; /* Or keep square for more constructivist look? Let's go circle for icons usually */
+    border-radius: 50%;
+    /* Or keep square for more constructivist look? Let's go circle for icons usually */
     border: var(--border-width) solid var(--black);
     font-size: 1.5rem;
     transition: transform 0.3s;
@@ -191,7 +200,8 @@ section:last-child {
     height: 200px;
     object-fit: cover;
     border-bottom: var(--border-width) solid var(--black);
-    filter: grayscale(100%) contrast(120%); /* Artistic touch */
+    filter: grayscale(100%) contrast(120%);
+    /* Artistic touch */
     transition: filter 0.3s;
 }
 
@@ -289,7 +299,7 @@ section:last-child {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     z-index: 999;
     display: none;
 }
