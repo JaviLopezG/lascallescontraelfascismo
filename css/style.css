@@ -90,13 +90,16 @@ p {
 header {
     text-align: center;
     padding: 2rem 0;
-    background-image: linear-gradient(45deg, var(--white) 25%, transparent 25%, transparent 75%, var(--white) 75%, var(--white)),
-        linear-gradient(45deg, var(--white) 25%, transparent 25%, transparent 75%, var(--white) 75%, var(--white));
-    background-size: 20px 20px;
-    background-position: 0 0, 10px 10px;
+    background-image: url('../assets/patron-art-deco.png');
+    background-repeat: repeat;
     background-color: var(--primary-color);
     /* Fallback/Blend */
     border-bottom: var(--border-width) solid var(--black);
+}
+
+header h1 {
+    color: var(--white);
+    text-shadow: 2px 2px 0px var(--black);
 }
 
 header img.logo {
@@ -106,6 +109,31 @@ header img.logo {
     background: var(--white);
     padding: 10px;
     box-shadow: 5px 5px 0px var(--black);
+}
+
+.lang-switcher {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--white);
+    border: var(--border-width) solid var(--black);
+    padding: 0.5rem;
+    box-shadow: 3px 3px 0px var(--black);
+    display: flex;
+    gap: 0.5rem;
+}
+
+.lang-switcher a {
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    padding: 0 0.5rem;
+}
+
+.lang-switcher a:hover {
+    color: var(--white);
+    background: var(--primary-color);
 }
 
 /* Sections */

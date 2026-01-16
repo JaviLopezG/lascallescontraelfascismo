@@ -20,6 +20,12 @@
 
     <header>
         <div class="container">
+            <div class="lang-switcher">
+                <a href="../index.html">ES</a>
+                <a href="../en/index.html">EN</a>
+                <a href="index.html">FR</a>
+                <a href="../ar/index.html">عربي</a>
+            </div>
             <img src="../logo.png" alt="Logo Las Calles Contra El Fascismo" class="logo">
             <h1>Las Calles Contra El Fascismo</h1>
         </div>
@@ -73,14 +79,38 @@
         <section id="redes">
             <h2>Réseaux Sociaux</h2>
             <div class="social-icons">
-                <a href="https://t.me/callescontraelfascismo" class="social-icon" aria-label="Telegram"
-                    target="_blank">Tg</a>
+                <a href="https://t.me/callescontraelfascismo" class="social-icon" aria-label="Telegram" target="_blank">
+                    <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="3" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-8.609 3.33c-2.068.8-4.133 1.598-5.724 2.21a405.15 405.15 0 0 1-2.849 1.09c-.42.147-.99.332-1.473.901-.728.968.193 1.798.919 2.286 1.61.516 3.275 1.009 4.654 1.472.509 1.793.997 3.592 1.48 5.388.16.69.506 1.287 1.255 1.15.75-.136 1.192-.617 1.635-1.043l1.838-1.74 3.084 2.279c.688.479 1.343.833 2.137.646.793-.186 1.25-.85 1.442-1.636 1.139-4.706 2.37-9.78 3.535-14.56.29-.89-.105-1.554-.803-1.803a2.757 2.757 0 0 0-.585-.125z">
+                        </path>
+                    </svg>
+                </a>
                 <a href="https://www.instagram.com/lascallescontraelfascismo/" class="social-icon"
-                    aria-label="Instagram" target="_blank">Ig</a>
-                <a href="https://x.com/LasCallesAntifa" class="social-icon" aria-label="X / Twitter"
-                    target="_blank">X</a>
+                    aria-label="Instagram" target="_blank">
+                    <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="3" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+                <a href="https://x.com/LasCallesAntifa" class="social-icon" aria-label="X / Twitter" target="_blank">
+                    <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="3" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+                    </svg>
+                </a>
                 <a href="mailto:lascallescontraelfascismo@riseup.net" class="social-icon" aria-label="Email"
-                    target="_blank">@</a>
+                    target="_blank">
+                    <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="3" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
             </div>
         </section>
 
@@ -97,20 +127,20 @@
             <div class="news-grid">
                 <!-- Card 1 -->
                 <article class="news-card">
-                    <img src="../logo.png" alt="Image Actualité 1">
+                    <img src="../assets/news/news-1.jpg" alt="Entretien LoQueSomos">
                     <div class="news-content">
-                        <div class="news-date">Récents</div>
+                        <div class="news-date">Sept 2025</div>
                         <h3 class="news-title">Entretien avec l'assemblée de « Las Calles Contra El Fascismo » en
                             Cantabrie</h3>
-                        <p class="news-excerpt">Assemblée de Las Calles Contra el Fascismo, Cantabrie, entretien, La
-                            Libre, Santander, son histoire et ses actions...</p>
+                        <p class="news-excerpt">L'assemblée explique son histoire, ses objectifs et la lutte contre le
+                            fascisme dans les rues de Cantabrie...</p>
                         <a href="https://loquesomos.es/entrevista-con-la-asamblea-de-las-calles-contra-el-fascismo-en-cantabria/"
                             class="news-link" target="_blank">Lire la suite</a>
                     </div>
                 </article>
-                <!-- Other cards simplified/translated similarly -->
+                <!-- Card 2 -->
                 <article class="news-card">
-                    <img src="../logo.png" alt="Image Actualité 2">
+                    <img src="../assets/news/news-2.jpg" alt="Menaces El Faradio">
                     <div class="news-content">
                         <div class="news-date">23/09/2025</div>
                         <h3 class="news-title">Las Calles Contra El Fascismo appelle à répondre aux menaces</h3>
@@ -120,13 +150,79 @@
                             class="news-link" target="_blank">Lire la suite</a>
                     </div>
                 </article>
-                <!-- ... additional cards ... -->
+                <!-- Card 3 -->
+                <article class="news-card">
+                    <img src="../assets/news/news-3.jpg" alt="Article Briega">
+                    <div class="news-content">
+                        <div class="news-date">Nov 2025</div>
+                        <h3 class="news-title">Plainte concernant l'accueil de l'extrême droite à l'Athénée</h3>
+                        <p class="news-excerpt">Des groupuscules d'extrême droite ont été accueillis à l'Athénée de
+                            Santander...</p>
+                        <a href="https://www.briega.org/es/noticias/calles-contra-fascismo-denuncia-acogida-ultraderecha-nazifascista-ateneo-santander"
+                            class="news-link" target="_blank">Lire la suite</a>
+                    </div>
+                </article>
+                <!-- Card 4 -->
+                <article class="news-card">
+                    <img src="../assets/news/news-4.jpg" alt="Mobilisation EuropaPress">
+                    <div class="news-content">
+                        <div class="news-date">27/09/2025</div>
+                        <h3 class="news-title">Mobilisations d'Alfonso I et Rock Contre le Fascisme sans incident</h3>
+                        <p class="news-excerpt">Les deux mobilisations convoquées pour samedi après-midi à Santander se
+                            sont déroulées sans incident...</p>
+                        <a href="https://www.europapress.es/cantabria/noticia-movilizaciones-alfonso-rock-contra-fascismo-santander-transcurren-incidentes-20250927202527.html"
+                            class="news-link" target="_blank">Lire la suite</a>
+                    </div>
+                </article>
+                <!-- Card 5 -->
+                <article class="news-card">
+                    <img src="../assets/news/news-5.jpg" alt="Mobilisation El Diario">
+                    <div class="news-content">
+                        <div class="news-date">27/09/2025</div>
+                        <h3 class="news-title">Un demi-millier de personnes élèvent la voix contre le fascisme</h3>
+                        <p class="news-excerpt">La manifestation de Rock Contre le Fascisme obtient une participation
+                            massive...</p>
+                        <a href="https://eldiariocantabria.publico.es/articulo/politica/cerca-medio-millar-personas-alzan-voz-fascismo-minoria-santander/20250927210432182441.html"
+                            class="news-link" target="_blank">Lire la suite</a>
+                    </div>
+                </article>
+                <!-- Card 6 -->
+                <article class="news-card">
+                    <img src="../assets/news/news-6.jpg" alt="Galerna Fest">
+                    <div class="news-content">
+                        <div class="news-date">Récents</div>
+                        <h3 class="news-title">Exigence au Gouvernement de Cantabrie concernant le 'Galerna Fest'</h3>
+                        <p class="news-excerpt">La Coordination Antifasciste dénonce qu'une tentative de donner la
+                            parole à des expressions contraires aux valeurs démocratiques est cachée...</p>
+                        <a href="https://www.eldiario.es/cantabria/ultimas-noticias/calles-fascismo-exige-gobierno-cantabria-garantice-legalidad-galerna-fest_1_12631930.html"
+                            class="news-link" target="_blank">Lire la suite</a>
+                    </div>
+                </article>
             </div>
+
             <div class="news-list">
                 <h3>Autres actualités</h3>
                 <div class="news-list-item">
                     <a href="https://www.federacionanarquista.net/santander-las-calles-contra-el-fascismo/?pass=qpwo"
                         target="_blank">Santander : Las Calles Contra El Fascismo - Fédération Anarchiste</a>
+                </div>
+                <div class="news-list-item">
+                    <a href="https://pcpe.es/cantabria-manifestacion-contra-el-fascimo-en-santander/"
+                        target="_blank">Cantabria : Manifestation contre le fascisme à Santander - PCPE</a>
+                </div>
+                <div class="news-list-item">
+                    <a href="https://diario-octubre.com/2025/09/14/santander-las-calles-contra-el-fascismo/"
+                        target="_blank">Santander : Las Calles Contra El Fascismo - Diario Octubre (14/09/2025)</a>
+                </div>
+                <div class="news-list-item">
+                    <a href="https://www.elfaradio.com/2025/09/25/la-coordinadora-antifascista-exige-al-gobierno-de-cantabria-y-al-ayuntamiento-de-santander-que-actuen-ante-el-galerna-fest/"
+                        target="_blank">La coordination antifasciste exige d'agir face au Galerna Fest - El Faradio
+                        (25/09/2025)</a>
+                </div>
+                <div class="news-list-item">
+                    <a href="https://www.elfaradio.com/2026/01/12/septiembre-de-1975-las-calles-contra-el-fascismo-recuerda-los-ultimos-fusilamientos-franquistas/"
+                        target="_blank">Septembre 1975 : Las calles contra el fascismo commémore les dernières
+                        exécutions franquistes - El Faradio (12/01/2026)</a>
                 </div>
             </div>
         </section>
@@ -145,7 +241,9 @@
     <div id="overlay" class="overlay"></div>
     <div id="lang-popup" class="lang-popup">
         <h3>¿Prefieres ver la página en otro idioma?</h3>
+        <p>Would you like to see the page in another language?</p>
         <p>Voulez-vous voir la page dans une autre langue?</p>
+        <p>هل تود رؤية الصفحة بلغة أخرى؟</p>
         <div class="lang-options">
             <button class="lang-btn" data-lang="es">Castellano</button>
             <button class="lang-btn" data-lang="en">English</button>
