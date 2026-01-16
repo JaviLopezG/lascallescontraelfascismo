@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: lascalles-web
+    restart: unless-stopped
+    ports:
+      - "8085:80"

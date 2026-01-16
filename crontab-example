@@ -1,0 +1,2 @@
+# Update website every hour
+0 * * * * cd /home/javi/deployment/lascallescontraelfascismo && git pull && docker-compose up -d --build
